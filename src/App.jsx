@@ -1,6 +1,6 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Gallery from "src/components/Gallery/Gallery.jsx"; // Corrected import
+import Gallery from "./components/Gallery/Gallery"; // Corrected import
 import Banner from "./components/Banner/Banner";
 import Blogs from "./components/Blogs/Blogs";
 import Footer from "./components/Footer/Footer";
