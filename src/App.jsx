@@ -1,6 +1,6 @@
 import AOS from "aos";
-import "aos/dist/aos.css"; // Keep one import
-import Gallery from "./components/gallery/gallery";
+import "aos/dist/aos.css";
+import Gallery from "src/components/Gallery/Gallery.jsx"; // Corrected import
 import Banner from "./components/Banner/Banner";
 import Blogs from "./components/Blogs/Blogs";
 import Footer from "./components/Footer/Footer";
@@ -33,7 +33,7 @@ function App() {
       </section>
       <section id="contact">
         <Service />
-        </section>
+      </section>
       <BannerDetails
         reverse={false}
         img={Founder}
@@ -47,13 +47,11 @@ function App() {
         description="We are committed to offering premium quality fabrics, exceptional customer service, and a diverse range of products. Raviteja Textiles has been recognized with prestigious awards like the Suvarna Sadakaru Award for Best Quality Product Sellers, highlighting our dedication to excellence."
       />
       <Banner />
-
-        <Blogs />
-        <section id="branches">
-      <Gallery />
-      
-      <Footer />
+      <Blogs />
+      <section id="branches">
+        <Gallery />
       </section>
+      <Footer />
     </div>
   );
 }
