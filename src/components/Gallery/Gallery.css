@@ -1,0 +1,13 @@
+/* Ensure all images in the gallery have the same size */
+.custom-gallery .image-gallery-slide img {
+    width: 100%;
+    height: 400px; /* Set a fixed height for all images */
+    object-fit: cover; /* Crop or scale the image proportionally */
+  }
+  
+  /* Ensure thumbnails are consistent */
+  .custom-gallery .image-gallery-thumbnail img {
+    width: 100%;
+    height: 80px; /* Set a fixed height for thumbnails */
+    object-fit: cover; /* Crop or scale the thumbnail proportionally */
+  }
