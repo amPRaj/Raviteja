@@ -1,5 +1,4 @@
 import React from "react";
-import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import GalleryImage1 from "../../assets/1.jpg";
 import GalleryImage2 from "../../assets/2.jpg";
@@ -13,6 +12,7 @@ import GalleryImage9 from "../../assets/9.jpg";
 import GalleryImage10 from "../../assets/10.jpg";
 import GalleryImage11 from "../../assets/11.jpg";
 import GalleryImage12 from "../../assets/12.jpg";
+import Gallery from "./components/Gallery/Gallery";
 import "./Gallery.css"; // Import custom CSS for styling
 
 const Gallery = () => {
